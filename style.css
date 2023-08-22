@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root{
+    --red:#EF233C;
+    --white:rgb(240, 237, 237);
+
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', cursive;
+}
+.btn-cstm{
+    background-color:var(--red);
+}
+.btn-danger{
+    color: var(--white);
+}
+.nav-item a{
+    color: var(--white);
+}
+.h-5{
+    min-height: 450px;
+}
+.profile{
+    width: 60%;
+    margin: 20px;
+  
+}
+.margin{
+    margin-left: 225px;
+}
+.cwidth{
+    width: 50%;
+}
+.pro{
+    width: 605;
+    height: 400px;
+}
+
+.width{
+    width: 100%;
+    margin:0;
+    height: 380px;
+}
+/* .content_height{ 
+    min-height: 200px;  
+    
+} */
+.img_height{
+    height: 350px;
+    width:300px;
+}
+
+.card img{
+    height: 300px;
+ 
+}
+
+
+.title{
+    color: aquamarine;
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.icon i{
+    margin-left: 10px;
+   color:var(--red);   /*  varible assigned above */
+}
+
+.nav-item a:hover{
+    color: var(--red);
+
+}
